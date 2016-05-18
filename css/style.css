@@ -1,1 +1,49 @@
-/* Placeholder */
+html { }
+
+body {
+    background-color:#1B2632;
+    color:#F1E64E;
+}
+
+body > .container-fluid {
+    margin-top:10px;
+}
+
+.navbar > * {
+    background-color:#1B2632;
+    font-family: 'Press Start 2P', cursive;
+    font-size:10px;
+} 
+
+.navbar {
+    border:0px;
+    border-bottom:1px solid #380908;
+    background-color:#380908;font-size:10px;
+}
+.navbar .navbar-brand, .navbar .navbar-brand:hover {
+    color:#f4f4f4;
+    font-size:16px;
+}
+
+.navbar .nav li.active a:hover,
+.navbar .nav li.active a,
+.navbar .nav li a,
+.navbar .nav li a:hover {
+    color:#f4f4f4;
+    background-color:inherit;
+    font-size:10px;
+}
+
+hr {margin:2px; height:6px;}
+.rl {color:red; background-color:red; border-color:red;}
+.bl {color:blue; background-color:blue; border-color:blue;}
+.gl {color:green; background-color:green; border-color:green;}
+
+section { }
+
+.panel-body {background-color:#1B2632;}
+
+textarea { resize:none; }
+aside { }
+footer { }
+.center {text-align:center;}
