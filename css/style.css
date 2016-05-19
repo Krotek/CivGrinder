@@ -9,6 +9,15 @@ body > .container-fluid {
     margin-top:10px;
 }
 
+h1 {
+    font-family: "Press Start 2P", cursive;
+    font-size:18px;
+}
+
+.left {
+    text-align:left;
+}
+
 .navbar > * {
     background-color:#1B2632;
     font-family: 'Press Start 2P', cursive;
@@ -32,6 +41,10 @@ body > .container-fluid {
     color:#f4f4f4;
     background-color:inherit;
     font-size:10px;
+}
+
+nav.navbar.navbar.navbar-default {
+    margin-bottom:0px;
 }
 
 hr {margin:2px; height:6px;}
