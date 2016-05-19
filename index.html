@@ -21,33 +21,60 @@
 </head>
 <body>
     <!-- Top Nav -->
-    <nav class="navbar navbar-default">
-        <div class="container fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand active" href="index.html">CivGrinder <span class="sr-only">(current)</span></a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="#Placeholder">Link 1</a></li>
-                    <li><a href="#Placeholder">Link 2</a></li>
-                    <li><a href="#Placeholder">Link 3</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">CivGrinder</a><br />
+            <span class="subText">An Incremental Civilization Game</span>
+        </div>
     </nav>
     <hr class="rl"><hr class="bl"><hr class="gl">
     <!-- Primary Container -->
     <div class="container-fluid">
+        <!-- Info Row -->
+
         <div class="row">
+            <!-- Tabs -->
+            <section>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#society">Society</a></li>
+                    <li><a data-toggle="tab" href="#resources">Resources</a></li>
+                    <li><a data-toggle="tab" href="#buildings">Buildings</a></li>
+                    <li><a data-toggle="tab" href="#technology">Technology</a></li>
+                    <li><a data-toggle="tab" href="#exploration">Exploration</a></li>
+                    <li><a data-toggle="tab" href="#saveLoad">Data</a></li>
+                </ul>
+                <!-- Tab Content -->
+                <div class="tab-content">
+                    <div id="society" class="tab-pane fade in active">
+                        <h3>Society</h3>
+                        <p>Society tab content</p>
+                    </div>
+                    <div id="resources" class="tab-pane fade">
+                        <h3>Resources</h3>
+                        <p>Resources tab content</p>
+                    </div>
+                    <div id="buildings" class="tab-pane fade">
+                        <h3>Buildings</h3>
+                        <p>Building tab content</p>
+                    </div>
+                    <div id="technology" class="tab-pane fade">
+                        <h3>Technology</h3>
+                        <p>Technology tab content</p>
+                    </div>
+                    <div id="exploration" class="tab-pane fade">
+                        <h3>Exploration</h3>
+                        <p>Exploration tab content</p>
+                    </div>
+                    <div id="saveLoad" class="tab-pane fade">
+                        <h3>Data Control</h3>
+                        <p>Data tab content</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Footer -->
+
+                <div class="row footer navbar-fixed-bottom">
             <section class="col-sm-4 center">
                 <p>Period: <span class="periodName">Stone Age</span></p>
             </section>
@@ -59,23 +86,12 @@
             </section>
         </div>
         
-        <div class="row">
-            <section class="col-sm-4 center">
-                <h1>Population</h1>
-            </section>
-            <section class="col-sm-4 center">
-                <h1>Resources</h1>
-            </section>
-            <section class="col-sm-4 center">
-                <h1>Technology</h1>
-            </section>
-        </div>
     </div>
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Bootstrap Javascript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<!-- Other Javascript -->
-<script src="js/game.js"></script>
+    <!-- Other Javascript -->
+    <script src="js/game.js"></script>
 </body>
 </html>

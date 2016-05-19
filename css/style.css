@@ -9,6 +9,31 @@ body > .container-fluid {
     margin-top:10px;
 }
 
+.navbar {border:0px;}
+
+.navbar-header {
+    background-color:#1B2632;
+    font-family: 'Press Start 2P', cursive;
+    font-size:10px;
+    float:left;
+    padding:45px;
+    text-align:center;
+    width:100%;
+}
+
+.navbar .navbar-brand, .navbar .navbar-brand:hover {
+    float:none;
+    color:white;
+    font-size:40px;
+}
+
+/*Extra Small Devices */
+@media screen and (max-width: 767px) {
+    .navbar .navbar-brand, .navbar .navbar-brand:hover {
+    font-size:20px;
+}
+}
+
 h1 {
     font-family: "Press Start 2P", cursive;
     font-size:18px;
@@ -18,45 +43,14 @@ h1 {
     text-align:left;
 }
 
-.navbar > * {
-    background-color:#1B2632;
-    font-family: 'Press Start 2P', cursive;
-    font-size:10px;
-} 
-
-.navbar {
-    border:0px;
-    border-bottom:1px solid #380908;
-    background-color:#380908;font-size:10px;
-}
-.navbar .navbar-brand, .navbar .navbar-brand:hover {
-    color:#f4f4f4;
-    font-size:16px;
-}
-
-.navbar .nav li.active a:hover,
-.navbar .nav li.active a,
-.navbar .nav li a,
-.navbar .nav li a:hover {
-    color:#f4f4f4;
-    background-color:inherit;
-    font-size:10px;
-}
-
 nav.navbar.navbar.navbar-default {
     margin-bottom:0px;
 }
 
 hr {margin:2px; height:6px;}
+
 .rl {color:red; background-color:red; border-color:red;}
 .bl {color:blue; background-color:blue; border-color:blue;}
 .gl {color:green; background-color:green; border-color:green;}
 
-section { }
-
-.panel-body {background-color:#1B2632;}
-
-textarea { resize:none; }
-aside { }
-footer { }
 .center {text-align:center;}
